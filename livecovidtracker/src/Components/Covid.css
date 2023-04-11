@@ -1,0 +1,68 @@
+
+body{
+    background-color: rgb(0, 0, 0);
+    
+}
+
+h1,h2{
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+
+h1{
+    transition: 0s;
+    transform: scale(1.1);
+
+}
+.card_name span {
+    font-size: 35px;
+    text-decoration: dashed;
+    color: aliceblue;
+    
+}
+
+
+
+
+ul{
+    list-style: none;
+    display: flex;
+    flex-flow: wrap;
+    font-weight: bold;
+
+    
+}
+
+
+.card{
+     background-color:rgb(55, 230, 24);
+     width: calc(76%/3);
+    margin: 2%;
+    padding: 2%;
+    text-align: center;
+    transition: 0.5s;
+    box-shadow: 8px 4px 4px 5px white   ;
+
+}
+
+.card:hover{
+    transform:scale(1.1);
+} 
+
+.card__name{
+    font-size: 55px;
+    font-weight: bold;
+}
+
+.card__name span {
+    font-size: 15px;
+  
+}
+
+.card__total {
+    font-size: 1000%;
+    font-weight: bold;
+   
+
+}
